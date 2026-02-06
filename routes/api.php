@@ -28,3 +28,7 @@ Route::get('/logout', function () {
 Route::get('/logout1', function () {
     return view('logout1');
 });
+
+Route::get('/logout12', function () {
+    return view('logout12');
+});
