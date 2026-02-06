@@ -17,3 +17,14 @@ Route::get('/test', function () {
 Route::get('/menu', function () {
     return view('menu');
 });
+
+Route::get('/category', function () {
+    return view('category');
+});
+Route::get('/logout', function () {
+    return view('logout');
+});
+
+Route::get('/logout1', function () {
+    return view('logout1');
+});
